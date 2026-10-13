@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bee: #f8925f;
+  --color-bee-dark: #e97a43;
+  --color-ink: #31434b;
+  --color-ink-light: #4a6069;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+body { @apply bg-white text-ink antialiased; }
